@@ -32,7 +32,7 @@ namespace BalancedBracketsNS
                 {
                     brackets++;
                 }
-                else if (ch == ']')
+                else if (str.IndexOf('[') < str.IndexOf(']') && ch == ']')
                 {
                     brackets--;
                 }
